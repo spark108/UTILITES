@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <!--Insert DisableWinExeOutputInference here -->
+    <DisableWinExeOutputInference>true</DisableWinExeOutputInference>
+    <ApplicationIcon>285658_blue_folder_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="285658_blue_folder_icon.ico" />
+  </ItemGroup>
+</Project>

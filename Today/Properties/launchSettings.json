@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Today": {
+      "commandName": "Project",
+      "commandLineArgs": "n-1"
+    }
+  }
+}
