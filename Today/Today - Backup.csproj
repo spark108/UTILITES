@@ -7,11 +7,11 @@
     <!--Insert DisableWinExeOutputInference here -->
     <DisableWinExeOutputInference>true</DisableWinExeOutputInference>
     <ApplicationIcon>285658_blue_folder_icon.ico</ApplicationIcon>
-
+    <AssemblyName>$(MSBuildProjectName) $(VersionPrefix)</AssemblyName>
     <ImplicitUsings>enable</ImplicitUsings>
     <SignAssembly>False</SignAssembly>
+    <AssemblyName>Spark108</AssemblyName>
     <VersionPrefix>1.0.2</VersionPrefix>
-    <AssemblyName>$(MSBuildProjectName) $(VersionPrefix)</AssemblyName>
     <Authors>Spark108</Authors>
   </PropertyGroup>
   <ItemGroup>
